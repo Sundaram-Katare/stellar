@@ -6,9 +6,9 @@ export default function CodeEditor({ value, onChange, language }) {
   return (
     <div
       style={{
-        border: "2px solid white",   // white border
-        borderRadius: "12px",        // rounded corners
-        overflow: "hidden",          // ensures editor respects border radius
+        border: "2px solid white",   
+        borderRadius: "12px",       
+        overflow: "hidden",         
       }}
     >
       <Editor
