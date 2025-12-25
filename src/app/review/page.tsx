@@ -35,13 +35,13 @@ export default function ReviewPage() {
                 </div>
 
                 <div className="flex flex-col md:grid md:grid-cols-2 gap-6">
-                    <div className="h-full">
+                    <div className="h-full text-white">
                         <select onChange={(e) => setLanguage(e.target.value)}>
-                            <option className="bg-black" value="javascript">JavaScript</option>
-                            <option className="bg-black" value="typescript">TypeScript</option>
-                            <option className="bg-black" value="python">Python</option>
-                            <option className="bg-black" value="Java">Java</option>
-                            <option className="bg-black" value="CPP">C++</option>
+                            <option className="bg-black text-white " value="javascript">JavaScript</option>
+                            <option className="bg-black text-white" value="typescript">TypeScript</option>
+                            <option className="bg-black text-white" value="python">Python</option>
+                            <option className="bg-black text-white" value="Java">Java</option>
+                            <option className="bg-black text-white" value="CPP">C++</option>
                         </select>
 
                         <CodeEditor
