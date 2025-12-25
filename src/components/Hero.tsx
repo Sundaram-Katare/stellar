@@ -8,16 +8,18 @@ export default function Hero() {
                 <h1 className="text-8xl text-center font-jergey bg-gradient-to-r from-[#FF0999] to-[#FF44C7] bg-clip-text text-transparent ">Devs love</h1>
 
                 <div className="flex flex-row gap-8 my-6">
-                    <Button text={"GitHub"} href={"/auth"} color={"#FF5B5B"} />
+                    <Button text={"GitHub"} href={"https://github.com/Sundaram-Katare/stellar"} classname="bg-[#FF5B5B] text-white" />
 
-                    <Button text={"GitHub"} href={"/auth"} color={"#c7c7c7ff"} />
+                    <Button text={"Start"} href={"/review"} classname="bg-gray-100 text-black" />
                 </div>
 
                 <p className="font-sans text-lg text-white">Paste your code. Get actionable feedback on bugs, performance, and best practices.</p>
 
-                <img src="/codeImage.png" alt="" 
-                     className="mt-28 rounded-2xl "
+                <div className="flex justify-center items-center p-4 ">
+                     <img src="/code2.png" alt="" 
+                     className="mt-28 rounded-2xl  md:h-[350] border-2 border-gray-100 rounded-2xl "
                 />
+                </div>
             </div>
 
         </>
