@@ -26,7 +26,7 @@ export default function ReviewPage() {
 
     return (
         <>
-            <div className="flex juitems-center flex-col min-h-[60vh] font-jersey bg-transparent mt-8  justify-center">
+            <div className="flex flex-col min-h-[60vh] font-jersey bg-transparent mt-8  justify-center">
 
                 <div className="relative w-fit h-fit rounded-xl border border-white/10 bg-transparent backdrop-blur-md p-6 transition-all duration-300 hover:border-pink-500/60 my-36 shadow-[0_0_40px_-10px_rgba(236,72,153,0.6)]">
                     <div className="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-transparent via-pink-500 to-transparent opacity-70" />
@@ -34,7 +34,7 @@ export default function ReviewPage() {
                     <h1 className="text-6xl text-white text-center ">Review <span className="text-pink-400">Code</span></h1>
                 </div>
 
-                <div className="grid grid-cols-2 gap-6">
+                <div className="flex flex-col md:grid md:grid-cols-2 gap-6">
                     <div className="h-full">
                         <select onChange={(e) => setLanguage(e.target.value)}>
                             <option className="bg-black" value="javascript">JavaScript</option>
